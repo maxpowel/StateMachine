@@ -10,7 +10,7 @@ There are two ways of declaring a state logic:
  
 States contain the machine logic of the program. The machine only evaluates the current state until a transition occurs that points to another state.
 
-To evaluate a piece of code only once while the machine is in a particular state, you can use the machine.evaluateOnce attribute. It is true each time the machine enters a new state until the first transition is evaluated.
+To evaluate a piece of code only once while the machine is in a particular state, you can use the machine.executeOnce attribute. It is true each time the machine enters a new state until the first transition is evaluated.
 
 ## TRANSITIONS
 Each state has transitions defined in setup(). Transitions require two parameters, 
